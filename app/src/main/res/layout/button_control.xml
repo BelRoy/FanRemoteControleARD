@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fan High"
+        android:id="@+id/fanhi"
+        android:layout_weight="1"
+        android:onClick="onClickHi"
+        android:background="@drawable/oval"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fan Medium"
+        android:id="@+id/fanmed"
+        android:layout_weight="1"
+        android:onClick="onClickMed"
+        android:background="@drawable/oval_m"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fan Low"
+        android:id="@+id/fanlow"
+        android:layout_weight="1"
+        android:onClick="onClickLow"
+        android:background="@drawable/oval_l"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fan Off"
+        android:background="@drawable/oval_in"
+        android:id="@+id/fanoff"
+        android:layout_weight="1"
+        android:onClick="onClickOff" />
+</LinearLayout>
